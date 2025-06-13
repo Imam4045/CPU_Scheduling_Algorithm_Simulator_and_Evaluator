@@ -1,0 +1,58 @@
+# ====================================
+# 🛠️ General C++ Build Artifacts
+# ====================================
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.gch
+*.pch
+*.log
+
+# Backup & Temp Files
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Stack Dumps (Windows)
+*.stackdump
+
+# ====================================
+# 📦 Code::Blocks
+# Ignore only local layout/temp files
+# Keep *.cbp and *.workspace if shared
+# ====================================
+*.layout
+*.depend
+*.autosave
+*.cbTemp
+
+# ====================================
+# 🧠 VS Code
+# Ignore user-local settings only
+# ====================================
+.vscode/
+
+# ====================================
+# 💡 CLion / JetBrains IDEs
+# Ignore user-local settings and build folders
+# ====================================
+.idea/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+compile_commands.json
+
+# ====================================
+# 🍏 macOS
+.DS_Store
+
+# ====================================
+# 🪟 Windows
+Thumbs.db
