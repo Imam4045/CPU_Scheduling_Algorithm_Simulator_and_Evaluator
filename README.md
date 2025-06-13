@@ -50,7 +50,6 @@ Defined using a `struct`:
 - `starting_time`: Not used
 - `completion_time`: Not used
 
----
 
 ### 2. Main Functionalities
 
@@ -76,3 +75,125 @@ Defined using a `struct`:
   Runs all four algorithms, calculates their average waiting times, and displays which performs best.
 
 ---
+
+
+## ⚙️ How to Run the Project
+
+1. Copy the code into a `.cpp` file using **VS Code** or any C++ IDE.
+
+2. **Compile the program using:**
+   ```bash
+   g++ Cpu_Scheduling_Project.cpp -o scheduler
+  - If you are running it in VS Code, you can simply use the 'Run Code' option.
+
+3. **Run the executable** using:
+   ```bash
+   ./scheduler
+
+4. **From the Main Menu, select:**
+
+   * **Algorithm Simulator**
+   * **Algorithm Evaluator**
+   * **Exit**
+
+### 🔸 **If you choose Option 1 (Algorithm Simulator):**
+
+* Pick an algorithm to simulate (FCFS, SJF, RR, Priority).
+* Enter:
+
+  * Number of processes.
+  * **Burst Time** for each process.
+  * **Priority** (only if Priority Scheduling).
+  * **Time Quantum** (only if Round Robin).
+
+### 🔸 **If you choose Option 2 (Algorithm Evaluator):**
+
+* Enter:
+
+  * Number of processes.
+  * **Burst Time**, **Priority**, and **Time Quantum**.
+* Program will:
+
+  * Run all algorithms.
+  * Show Gantt Charts and results.
+  * Compare average waiting times and suggest the best algorithm.
+
+---
+
+
+## 🖥️ Main Menue
+
+- Main Menue Options:
+
+![Image](https://github.com/user-attachments/assets/eb8e6a33-7d40-42d0-bc9a-e40a1d80e081)
+
+- Inside the Algorithm Simulator Menue: 
+
+![Image](https://github.com/user-attachments/assets/de197a95-294d-4878-abef-347e93751ac7)
+
+---
+
+## 📈 Example Outputs
+
+-  First Come First Serve (FCFS) Scheduling
+
+![Image](https://github.com/user-attachments/assets/c886ae71-bae8-43d4-bfa5-1f03d18a1e39)
+
+- Shortest Job First (SJF) Scheduling
+
+![Image](https://github.com/user-attachments/assets/058e84f0-8cbe-45d0-ba43-d8a18fd79ebc)
+
+- Round Robin (RR) Scheduling
+
+![Image](https://github.com/user-attachments/assets/2bc85bea-f097-4bb2-a86a-18f79b08ec75)
+
+- Priority Scheduling
+
+![Image](https://github.com/user-attachments/assets/4938adbb-0b72-49aa-867b-3db06d9f2424)
+
+- Inside the Algorithm Evaluator Menu
+
+![Image](https://github.com/user-attachments/assets/036f8c32-e7e6-4e09-8507-c8094c392d77)
+
+![Image](https://github.com/user-attachments/assets/f1913faf-8108-4863-a468-8141d38d3ffd)
+
+---
+
+## 🎯 **Project Assumptions**
+
+* All inputs (Burst Time, Priority, Time Quantum) are **positive integers**.
+* **Non-preemptive** versions of SJF and Priority Scheduling are used.
+* **Stable sorting**: If two processes have the same burst time or priority, their order remains as per user input.
+
+---
+
+## ⚠️ **Limitations**
+
+* Not designed for **very large datasets** (e.g., thousands of processes).
+* **Basic Gantt Chart**: Does not visualize state changes or preemption details.
+
+---
+
+## 📄 **References**
+
+* Operating System Concepts by Abraham Silberschatz
+* C++ Standard Library
+* East West University CSE325 - Operating Systems Course Materials
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make changes, and submit a pull request.
+
+---
+
+## 🔓 License
+
+This project is licensed under the [**MIT License**](https://opensource.org/licenses/MIT).
+
+---
+
+## 📬 Contact
+
+For any questions or issues, feel free to contact [Me](mailto:imam220826@gmail.com).
