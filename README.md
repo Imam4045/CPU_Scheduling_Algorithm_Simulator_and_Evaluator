@@ -1,1 +1,1 @@
-# CPU_Scheduling_Algorithm_Simulator_and_Evaluator
+# CPU Scheduling Algorithm Simulator and Evaluator
