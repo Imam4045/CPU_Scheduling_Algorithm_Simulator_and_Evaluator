@@ -196,4 +196,5 @@ This project is licensed under the [**MIT License**](https://opensource.org/lice
 
 ## 📬 Contact
 
-For any questions or issues, feel free to contact [Me](mailto:imam220826@gmail.com).
+If you have any questions or concerns, please don't hesitate to contact me via email at <a href="mailto:imam220826@gmail.com">imam220826@gmail.com</a>
+
