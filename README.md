@@ -79,18 +79,16 @@ Defined using a `struct`:
 
 ## ⚙️ How to Run the Project
 
-1. Copy the code into a `.cpp` file using **VS Code** or any C++ IDE.
-
-2. **Compile the program using:**
+1. **Compile the program using:**
    ```bash
    g++ Cpu_Scheduling_Project.cpp -o scheduler
   - If you are running it in VS Code, you can simply use the 'Run Code' option.
 
-3. **Run the executable** using:
+2. **Run the executable** using:
    ```bash
    ./scheduler
 
-4. **From the Main Menu, select:**
+3. **From the Main Menu, select:**
 
    * **Algorithm Simulator**
    * **Algorithm Evaluator**
