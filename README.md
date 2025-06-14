@@ -121,7 +121,7 @@ Defined using a `struct`:
 ---
 
 
-## 🖥️ Main Menue
+## 🧑‍💻 Main Menue
 
 - Main Menue Options:
 
@@ -133,7 +133,7 @@ Defined using a `struct`:
 
 ---
 
-## 📈 Example Outputs
+## 📤 Example Outputs
 
 -  First Come First Serve (FCFS) Scheduling
 
@@ -188,7 +188,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ---
 
-## 🔓 License
+## 🔒 License
 
 This project is licensed under the [**MIT License**](https://opensource.org/licenses/MIT).
 
