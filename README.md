@@ -79,10 +79,12 @@ Defined using a `struct`:
 
 ## ⚙️ How to Run the Project
 
-1. **Compile the program using:**
+1. Compile the program using:
+
    ```bash
    g++ Cpu_Scheduling_Project.cpp -o scheduler
-  - If you are running it in VS Code, you can simply use the 'Run Code' option.
+   ```
+   - If you are running it in VS Code, you can simply use the 'Run Code' option.
 
 2. **Run the executable** using:
    ```bash
